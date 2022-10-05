@@ -1,0 +1,36 @@
+.header {
+    font-family: monospace;
+    background: papayawhip;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px; /* Not my solution */
+}
+
+.logo {
+    font-weight: 900;
+    font-size: 48px;
+    color: tomato;
+    background: white;
+    padding: 4px 32px;
+    /* margin: 20px; */ /* My solution */
+}
+
+ul {
+    display: flex;
+    padding: 0;
+    margin: 0; /* Not my solution */
+    gap: 8px; /* Not my solution */
+    /* flex: 0; */ /* My solution */
+    /* this removes the dots on the list items*/
+    list-style-type: none;
+}
+
+a {
+    font-size: 22px;
+    background: white;
+    padding: 8px;
+    /* margin: 8px; */ /* My solution */
+    /* this removes the line under the links */
+    text-decoration: none;
+}
